@@ -1,0 +1,76 @@
+{
+  "shows": [
+    {
+      "title": "A Summer Story",
+      "artists": "Amelie Lens",
+      "photo": "https://i1.sndcdn.com/artworks-kr5By8s0S3AII1y8-fxUJTw-t500x500.jpg",
+      "genre": "Techno",
+      "date": "18th June",
+      "location": "Madrid",
+      "link": "https://asummerstory.com/en/tickets/"
+    },
+    {
+      "title": "A Summer Story",
+      "artists": "Recycled J",
+      "photo": "https://pbs.twimg.com/media/E44-SKgXMAE6-_F.jpg",
+      "genre": "Rap",
+      "date": "19th June",
+      "location": "Madrid",
+      "link": "https://asummerstory.com/en/tickets/"
+    },
+    {
+      "title": "MadCool Festival",
+      "artists": "Twenty One Pilots",
+      "photo": "https://monterreyrock.com/wp-content/uploads/2021/11/twenty-one-pilots-corona-capital-2021.jpeg",
+      "genre": "Alternative",
+      "date": "6th July",
+      "location": "Madrid",
+      "link": "https://madcoolfestival.es/en/tickets-mad-cool.php"
+    },
+    {
+      "title": "MadCool Festival",
+      "artists": "The Killers",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/The_Killers_%40_Bonnaroo_2018.jpg/1200px-The_Killers_%40_Bonnaroo_2018.jpg",
+      "genre": "Alternative",
+      "date": "7th July",
+      "location": "Madrid",
+      "link": "https://madcoolfestival.es/en/tickets-mad-cool.php"
+    },
+    {
+      "title": "ULTRA",
+      "artists": "David Guetta",
+      "photo": "https://industriamusical.com/wp-content/uploads/2013/08/david-guetta-0.jpg",
+      "genre": "Tecno",
+      "date": "8th July",
+      "location": "Split, Croacia",
+      "link": "https://ultraeurope.com/tickets/festival/"
+    },
+    {
+      "title": "ULTRA",
+      "artists": "Carlcox",
+      "photo": "https://passportexperience.com/wp-content/uploads/2018/10/Historia-de-Carl-Cox.jpg",
+      "genre": "Tecno",
+      "date": "9th July",
+      "location": "Split, Croacia",
+      "link": "https://ultraeurope.com/tickets/festival/"
+    },
+    {
+      "title": "Reggaeton Beach Festival",
+      "artists": "Anuel AA",
+      "photo": "https://eldiariony.com/wp-content/uploads/sites/2/2022/06/GettyImages-1181743558.jpg?quality=60&strip=all&w=1200",
+      "genre": "Reggaeton",
+      "date": "18th July",
+      "location": "Mallorca",
+      "link": "https://reggaetonbeachfestival.com/es/festivales/summer/mallorca"
+    },
+    {
+      "title": "Reggaeton Beach Festival",
+      "artists": "Myke Towers",
+      "photo": "https://i.musicaimg.com/letras/resmax/myke-towers.jpg",
+      "genre": "Reggaeton",
+      "date": "17th July",
+      "location": "Mallorca",
+      "link": "https://reggaetonbeachfestival.com/es/festivales/summer/mallorca"
+    }
+  ]
+}
