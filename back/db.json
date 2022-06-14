@@ -13,11 +13,49 @@
       "title": "A Summer Story",
       "artists": "Recycled J",
       "photo": "https://pbs.twimg.com/media/E44-SKgXMAE6-_F.jpg",
-      "genre": "Rap",
-      "date": "19th June",
+      "genre": "Techno",
+      "date": "18th June",
       "location": "Madrid",
       "link": "https://asummerstory.com/en/tickets/"
     },
+    {
+      "title": "ULTRA",
+      "artists": "David Guetta",
+      "photo": "https://industriamusical.com/wp-content/uploads/2013/08/david-guetta-0.jpg",
+      "genre": "Techno",
+      "date": "8th July",
+      "location": "Split, Croacia",
+      "link": "https://ultraeurope.com/tickets/festival/"
+    },
+    {
+      "title": "ULTRA",
+      "artists": "Carlcox",
+      "photo": "https://passportexperience.com/wp-content/uploads/2018/10/Historia-de-Carl-Cox.jpg",
+      "genre": "Techno",
+      "date": "9th July",
+      "location": "Split, Croacia",
+      "link": "https://ultraeurope.com/tickets/festival/"
+    },
+    {
+      "title": "Secret Project",
+      "artists": "Adam Beyer",
+      "photo": "https://industriamusical.com/wp-content/uploads/2013/08/david-guetta-0.jpg",
+      "genre": "Techno",
+      "date": "18th June",
+      "location": "Portimão, Portugal",
+      "link": "https://portugal.secretproject.com/?gclid=Cj0KCQjwwJuVBhCAARIsAOPwGASHvJ_UtBFecGe96vxmF7oj6gE5B44To1ReWSqG7rViAxGrcNRSEuQaAljEEALw_wcB"
+    },
+
+    {
+      "title": "Secret Project",
+      "artists": "Ann Clue",
+      "photo": "https://conciertos.club/doc/a/2020/a_annclue.jpg",
+      "genre": "Techno",
+      "date": "20th June",
+      "location": "Portimão, Portugal",
+      "link": "https://portugal.secretproject.com/?gclid=Cj0KCQjwwJuVBhCAARIsAOPwGASHvJ_UtBFecGe96vxmF7oj6gE5B44To1ReWSqG7rViAxGrcNRSEuQaAljEEALw_wcB"
+    },
+
     {
       "title": "MadCool Festival",
       "artists": "Twenty One Pilots",
@@ -37,23 +75,42 @@
       "link": "https://madcoolfestival.es/en/tickets-mad-cool.php"
     },
     {
-      "title": "ULTRA",
-      "artists": "David Guetta",
-      "photo": "https://industriamusical.com/wp-content/uploads/2013/08/david-guetta-0.jpg",
-      "genre": "Tecno",
-      "date": "8th July",
-      "location": "Split, Croacia",
-      "link": "https://ultraeurope.com/tickets/festival/"
+      "title": "Ojeando",
+      "artists": "Niños Mutantes",
+      "photo": "https://i.musicaimg.com/letras/resmax/ninos-mutantes.jpg",
+      "genre": "Alternative",
+      "date": "1th July",
+      "location": "Ojén, Málaga",
+      "link": "https://www.primaverasound.com/es/barcelona"
     },
     {
-      "title": "ULTRA",
-      "artists": "Carlcox",
-      "photo": "https://passportexperience.com/wp-content/uploads/2018/10/Historia-de-Carl-Cox.jpg",
-      "genre": "Tecno",
-      "date": "9th July",
-      "location": "Split, Croacia",
-      "link": "https://ultraeurope.com/tickets/festival/"
+      "title": "Ojeando",
+      "artists": "Ladilla Rusa",
+      "photo": "https://static3.burgosconecta.es/www/multimedia/202109/24/media/cortadas/ladilla-rusa-kyrD-U150635006107yZB-1248x770@Burgosconecta.jpg",
+      "genre": "Alternative",
+      "date": "2th July",
+      "location": "Ojén, Málaga",
+      "link": "https://www.primaverasound.com/es/barcelona"
     },
+    {
+      "title": "Tomavistas extra",
+      "artists": "Los planetas",
+      "photo": "https://www.larazon.es/resizer/Ge9rSVkQ4dgtRLLcYj-j-kj6AFI=/1800x1200/smart/filters:format(webp):quality(65)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/NHNVDZK5LVB7DFDKYEKKFGY4TE.jpg",
+      "genre": "Alternative",
+      "date": "30th June",
+      "location": "Madrid",
+      "link": "https://extra.tomavistasfestival.com/conciertos-extra-2022/"
+    },
+    {
+      "title": "Tomavistas extra",
+      "artists": "Ángel Stanich",
+      "photo": "https://extra.tomavistasfestival.com/wp-content/uploads/2022/02/concierto_a%CC%81ngel-stanich_tomavistas-extra-2022.jpg",
+      "genre": "Alternative",
+      "date": "1th July",
+      "location": "Madrid",
+      "link": "https://extra.tomavistasfestival.com/conciertos-extra-2022/"
+    },
+
     {
       "title": "Reggaeton Beach Festival",
       "artists": "Anuel AA",
@@ -71,6 +128,42 @@
       "date": "17th July",
       "location": "Mallorca",
       "link": "https://reggaetonbeachfestival.com/es/festivales/summer/mallorca"
+    },
+    {
+      "title": "Reggaeton Beach Festival",
+      "artists": "Becky G",
+      "photo": "https://los40es00.epimg.net/los40/imagenes/2017/11/05/musica/1509883385_308874_1509884217_rrss_normal.jpg",
+      "genre": "Reggaeton",
+      "date": "20th July",
+      "location": "Mallorca",
+      "link": "https://reggaetonbeachfestival.com/es/festivales/summer/mallorca"
+    },
+    {
+      "title": "Puro Reggaeton Festival",
+      "artists": "Bad Gyal",
+      "photo": "https://www.granadahoy.com/2019/11/06/ocio/Bad-Gyal-imagen-archivo_1407469503_112226449_1200x675.jpg",
+      "genre": "Reggaeton",
+      "date": "15th July",
+      "location": "Madrid",
+      "link": "https://madridpuroreggaetonfestival.com/"
+    },
+    {
+      "title": "Puro Reggaeton Festival",
+      "artists": "Juan Magan",
+      "photo": "https://images.ecestaticos.com/f3jujhtP2mcDze76bz85WthjthU=/217x0:1249x774/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F7c0%2Ff20%2F3a1%2F7c0f203a198eabd3c9f7ee544304efbf.jpg",
+      "genre": "Reggaeton",
+      "date": "15th July",
+      "location": "Madrid",
+      "link": "https://madridpuroreggaetonfestival.com/"
+    },
+    {
+      "title": "Puro Reggaeton Festival",
+      "artists": "Daddy Yankee",
+      "photo": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/2/e/a/8/2ea8609395e3935f3f167566c37e9875.jpg",
+      "genre": "Reggaeton",
+      "date": "16th July",
+      "location": "Madrid",
+      "link": "https://madridpuroreggaetonfestival.com/"
     }
   ]
 }
