@@ -19,14 +19,21 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
     this.showForm=this.formBuilder.group({
       title:[this.newShow.title, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
-      artist:[this.newShow.artists, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
+      artists:[this.newShow.artists, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
       photo: [this.newShow.photo, [Validators.minLength(2), Validators.maxLength(20)]],
       genre: [this.newShow.genre, [Validators.minLength(2), Validators.maxLength(20)]],
       date: [this.newShow.date, [Validators.minLength(2), Validators.maxLength(20)]],
       location: [this.newShow.location, [Validators.minLength(2), Validators.maxLength(20)]],
       link: [this.newShow.link, [Validators.minLength(2)]]
     })
-
+    this.showForm.valueChanges.subscribe((changes)=>{
+      this.newShow=changes;
+      
+    })
+    }
+    public onSubmit(){
+      this.showsService.postShow(this.newShow).subscribe();
+      this.showForm.reset();
     }
   }
 
