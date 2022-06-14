@@ -1,3 +1,4 @@
+import { ShowsService } from 'src/app/services/shows.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shows.component.scss']
 })
 export class ShowsComponent implements OnInit {
-
-  constructor() { }
+public shows: any;
+  constructor(private showsService: ShowsService) { }
 
   ngOnInit(): void {
+    this.showsService.getShows().subscribe(data=>{
+      this.shows=data;
+      console.log(this.shows);
+    })
   }
 
 }
