@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+}
+
+header {
+
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    width: auto;
+    border-radius: 10px 10px 10px 10px;
+    gap: 10%;
+
+  nav {
+
+    ul {
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center, center;
+      
+
+    a{
+      color: black;
+      padding: 10px;
+
+    .li2{
+        margin: 20px;;
+        &:hover{
+            color: aqua;
+        }
+    }
+       
+    
+    }
+  }
+}
+}
