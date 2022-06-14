@@ -9,7 +9,7 @@ import { ShowsService } from 'src/app/services/shows.service';
   styleUrls: ['./form.component.scss']
 })
 export class FormComponent implements OnInit {
-  public comicForm!: FormGroup;
+  public showForm!: FormGroup;
   public submmited: boolean = false;
   public newShow = this.showsService.showData;
   
@@ -17,6 +17,16 @@ export class FormComponent implements OnInit {
   constructor(private formBuilder: FormBuilder, private showsService: ShowsService, private router: Router) { }
 
   ngOnInit(): void {
+    this.showForm=this.formBuilder.group({
+      title:[this.newShow.title, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
+      artist:[this.newShow.artists, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
+      photo: [this.newShow.photo, [Validators.minLength(2), Validators.maxLength(20)]],
+      genre: [this.newShow.genre, [Validators.minLength(2), Validators.maxLength(20)]],
+      date: [this.newShow.date, [Validators.minLength(2), Validators.maxLength(20)]],
+      location: [this.newShow.location, [Validators.minLength(2), Validators.maxLength(20)]],
+      link: [this.newShow.link, [Validators.minLength(2)]]
+    })
+
+    }
   }
 
-}
