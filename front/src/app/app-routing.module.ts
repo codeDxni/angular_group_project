@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: "", pathMatch: "full", loadChildren:() => import("./pages/home/home.module").then(m=> m.HomeModule)},
   { path: "about", loadChildren:() => import("./pages/about/about.module").then(m=> m.AboutModule)},
   { path: "shows", loadChildren:() => import("./pages/shows/shows.module").then(m=> m.ShowsModule)},
+  { path: "form", loadChildren:() => import("./pages/form/form.module").then(m=> m.FormModule)},
 ];
 
 @NgModule({
