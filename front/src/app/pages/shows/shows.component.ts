@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ShowsService } from 'src/app/services/shows.service';
+import { ShowsInterface } from 'src/app/models/showsInterface';
 
 @Component({
   selector: 'app-shows',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shows.component.scss']
 })
 export class ShowsComponent implements OnInit {
+  public shows: ShowsInterface[]=[];
 
-  constructor() { }
+  constructor(private showsService: ShowsService) { }
 
   ngOnInit(): void {
+    this.showsService.getShows().subscribe((data:any) =>{
+      this.shows=data;
+    
+
+    })
   }
 
 }
