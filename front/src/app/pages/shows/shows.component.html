@@ -1,2 +1,14 @@
-<p>shows works!</p>
-<p>Lucas work</p>
+<section class="shows">
+    <h2>Shows</h2>
+    <article class="shows_gallery">
+        <figure *ngFor="let show of shows">
+            <h3>{{show.artists}}</h3>
+            <img src="{{show.photo}}" alt="{{show.artists}}">
+            <p>{{show.genre}}</p>
+            <p>{{show.title}}</p>
+            <p>{{show.date}}</p>
+            <p>{{show.location}}</p>
+            <p>{{show.link}}</p>
+        </figure>
+    </article>
+</section> 
