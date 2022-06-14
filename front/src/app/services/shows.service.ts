@@ -11,13 +11,14 @@ export class ShowsService {
   constructor(private httpClient: HttpClient) { }
 
   public showData = {
-    title: "Title",
-    artists: "Artist",
-    photo: "https://i.pinimg.com/564x/59/d3/b7/59d3b7763b5e88932e059cf281e7d48a.jpg",
-    genre: "Genre",
-    date: "Date",
-    location: "Location",
-    link: "Link"
+    id:"",
+    title: "",
+    artists: "",
+    photo: "",
+    genre: "",
+    date: "",
+    location: "",
+    link: ""
   }
 
   public getShows(){
