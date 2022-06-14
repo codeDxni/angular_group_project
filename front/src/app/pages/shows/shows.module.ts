@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,7 +12,8 @@ import { ShowsComponent } from './shows.component';
   ],
   imports: [
     CommonModule,
-    ShowsRoutingModule
+    ShowsRoutingModule,
+
   ]
 })
 export class ShowsModule { }
