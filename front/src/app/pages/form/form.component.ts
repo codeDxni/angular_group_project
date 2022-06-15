@@ -34,6 +34,9 @@ export class FormComponent implements OnInit {
     public onSubmit(){
       this.showsService.postShow(this.newShow).subscribe();
       this.showForm.reset();
+      alert("Show created");
+
+      this.router.navigate(["/shows"]);
     }
   }
 

@@ -28,4 +28,12 @@ export class ShowsService {
   public postShow(newShow: any) {
     return this.httpClient.post("http://localhost:3000/shows", newShow)
   }
+
+  public editShow(editedShow:any, showId:any){
+    return this.httpClient.put("http://localhost:3000/shows/" + showId, editedShow)
+  }
+
+  public editItem(item:any){
+    this.showData= item;
+  }
 }
