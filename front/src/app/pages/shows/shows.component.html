@@ -1,15 +1,18 @@
 <section class="shows">
     <h2>Shows</h2>
     <article class="shows_gallery">
-        <figure *ngFor="let show of shows">
+        <figure class="shows_gallery_inside" *ngFor="let show of shows">
             <h3>{{show.artists}}</h3>
             <img src="{{show.photo}}" alt="{{show.artists}}">
+            <div class="info">
             <p>{{show.genre}}</p>
             <p>{{show.title}}</p>
             <p>{{show.date}}</p>
             <p>{{show.location}}</p>
             <p>{{show.link}}</p>
-            <button (click)="editShow(show)">Edit</button>
+            <button class="button-36" role="button" (click)="editShow(show)">Edit</button>
+        </div>
         </figure>
     </article>
 </section> 
+   
