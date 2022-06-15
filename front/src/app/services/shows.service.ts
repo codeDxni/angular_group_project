@@ -23,7 +23,7 @@ export class ShowsService {
 
   public clearShow(){
     this.showData = {
-      id:"",
+      id: "",
     title: "",
     artists: "",
     photo: "",
@@ -42,7 +42,7 @@ export class ShowsService {
     return this.httpClient.post("http://localhost:3000/shows", newShow)
   }
 
-  public putShow(editedShow:any, showId:any){
+  public putShow(showId:any, editedShow:any ){
     return this.httpClient.put("http://localhost:3000/shows/" + showId, editedShow)
   }
 

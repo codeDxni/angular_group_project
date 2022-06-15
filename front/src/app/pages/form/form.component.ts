@@ -42,18 +42,19 @@ export class FormComponent implements OnInit {
       } else {
         
         this.showsService.postShow(this.newShow).subscribe();
+        alert("Show created");
       }
 
       this.showForm.reset();
-      alert("Show created");
 
       this.router.navigate(["/shows"]);
     }
 
     public delete(){
-      this.showsService.deleteShow(this.newShow.id);
+      this.showsService.deleteShow(this.newShow.id).subscribe();
       this.showsService.clearShow();
       alert("Show borrado");
+      this.router.navigate(["/shows"]);
 
     }
   }

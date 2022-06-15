@@ -1,16 +1,6 @@
 {
   "shows": [
     {
-      "id": 1,
-      "title": "A Summer Story",
-      "artists": "Amelie Lens",
-      "photo": "https://i1.sndcdn.com/artworks-kr5By8s0S3AII1y8-fxUJTw-t500x500.jpg",
-      "genre": "Techno",
-      "date": "18th June",
-      "location": "Madrid",
-      "link": "https://asummerstory.com/en/tickets/"
-    },
-    {
       "id": 2,
       "title": "A Summer Story",
       "artists": "Recycled J",
@@ -19,16 +9,6 @@
       "date": "18th June",
       "location": "Madrid",
       "link": "https://asummerstory.com/en/tickets/"
-    },
-    {
-      "id": 3,
-      "title": "ULTRA",
-      "artists": "David Guetta",
-      "photo": "https://industriamusical.com/wp-content/uploads/2013/08/david-guetta-0.jpg",
-      "genre": "Techno",
-      "date": "8th July",
-      "location": "Split, Croacia",
-      "link": "https://ultraeurope.com/tickets/festival/"
     },
     {
       "id": 4,
