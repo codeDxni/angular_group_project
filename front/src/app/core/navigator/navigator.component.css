@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  list-style: none;
+}
+
+header {
+  background: #3f5efb;
+  background: -webkit-gradient(linear, left top, right top, from(#3f5efb), to(#fc466b));
+  background: linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  width: auto;
+  border-radius: 10px 10px 10px 10px;
+  gap: 10%;
+}
+
+header nav ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  place-content: center, center;
+}
+
+header nav ul a {
+  color: black;
+  padding: 10px;
+}
+/*# sourceMappingURL=navigator.component.css.map */
