@@ -179,16 +179,6 @@
       "date": "16/07/2022",
       "location": "Madrid",
       "link": "https://madridpuroreggaetonfestival.com/"
-    },
-    {
-      "title": "Festival de prueba",
-      "artists": "Artista prueba",
-      "photo": "C:\\fakepath\\prueba.jpg",
-      "genre": "",
-      "date": "2022-06-17",
-      "location": "Madrid",
-      "link": "https://www.esmadrid.com/festivales-musicales-madrid",
-      "id": 19
     }
   ]
 }
