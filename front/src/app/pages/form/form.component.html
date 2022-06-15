@@ -1,25 +1,41 @@
-<section>
-    <h2>Formulario de tu super festival</h2>
-    <form [formGroup]="showForm" (ngSubmit)="onSubmit()">
-        <label for="artists">Artists</label>
-        <input type="text" id="artists" formControlName="artists">
-        <label for="photo">Photo</label>
-        <input type="text" id="photo" formControlName="photo">
-        <label for="genre">Genre</label>
-        <input type="text" id="genre" formControlName="genre">
-        <label for="title">Title</label>
-        <input type="text" id="title" formControlName="title">
-        <label for="date">Date</label>
-        <input type="text" id="date" formControlName="date">
-        <label for="location">Location</label>
-        <input type="text" id="location" formControlName="location">
-        <label for="link">Buy-Tickets</label>
-        <input type="text" id="link" formControlName="link">
-        <div>
-         <button type="submit">Publicar Show</button>
-         <button (click)="delete()" type="delete">Eliminar Show</button>
 
-        </div>
-    </form>
-</section>
+<body>
+    <section>
+        <h2>Formulario de tu super festival</h2>
+        <form [formGroup]="showForm" (ngSubmit)="onSubmit()">
+            <div>
+                <label for="artists">Artists</label>
+                <input type="text" id="artists" formControlName="artists">
+            </div>
+            <div>
+                <label for="photo">Photo</label>
+                <input type="text" id="photo" formControlName="photo">
+            </div>
+            <div>
+                <label for="genre">Genre</label>
+                <input type="text" id="genre" formControlName="genre">
+            </div>
+            <div>
+                <label for="title">Festival</label>
+                <input type="text" id="title" formControlName="title">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="text" id="date" formControlName="date">
+            </div>
+            <div>
+                <label for="location">Location</label>
+                <input type="text" id="location" formControlName="location">
+            </div>
+            <div>
+                <label for="link">Buy-Tickets</label>
+                <input type="text" id="link" formControlName="link">
+            </div>
+            <div>
+             <button type="submit">SAVE CHANGES</button>
+            </div>
+        </form>
+    </section>
+    </body>
+
 
