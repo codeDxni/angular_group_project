@@ -1,42 +1,52 @@
 
 <body>
     <section>
-        <h2>Formulario de tu super festival</h2>
+        <h2>Formulario del festival</h2>
         <form [formGroup]="showForm" (ngSubmit)="onSubmit()">
             <div>
                 <label for="artists">Artists</label>
-                <input type="text" id="artists" formControlName="artists">
+                <input type="text" id="artists" formControlName="artists" placeholder="Name">
             </div>
             <div>
                 <label for="photo">Photo</label>
-                <input type="text" id="photo" formControlName="photo">
+                <input type="text" id="photo" formControlName="photo" placeholder="url photo">
             </div>
             <div>
                 <label for="genre">Genre</label>
-                <input type="text" id="genre" formControlName="genre">
+                <select name="genre" id="genre">
+                    <option value="Techno">Techno</option>
+                    <option value="Alternative">Alternative</option>
+                    <option value="Reggaeton">Reggaeton</option>
+
+                </select>
             </div>
             <div>
                 <label for="title">Festival</label>
-                <input type="text" id="title" formControlName="title">
+                <input type="text" id="title" formControlName="title" placeholder="Festival's name">
             </div>
             <div>
                 <label for="date">Date</label>
-                <input type="text" id="date" formControlName="date">
+                <input type="date" id="date" formControlName="date">
             </div>
             <div>
                 <label for="location">Location</label>
-                <input type="text" id="location" formControlName="location">
+                <input type="text" id="location" formControlName="location" placeholder="Place">
             </div>
             <div>
                 <label for="link">Buy-Tickets</label>
-                <input type="text" id="link" formControlName="link">
+                <input type="url" id="link" formControlName="link" placeholder="url web page">
             </div>
-            <div>
+            
+            <div class="botones">
              <button type="submit">SAVE CHANGES</button>
             </div>
-            <div>
-            <button (click)="delete()" type="delete">Eliminar Show</button>
+
+            <div class="botones">
+            <button (click)="delete()" type="delete">
+                <img src="../../../assets/images/bin.png" alt="borrar" class="bin">
+            </button>
             </div>
+
         </form>
     </section>
     </body>
