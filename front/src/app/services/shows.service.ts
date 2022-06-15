@@ -52,4 +52,7 @@ export class ShowsService {
   public deleteShow(showId:any){
     return this.httpClient.delete("http://localhost:3000/shows/" + showId)
   }
-}
+  
+
+  }
+

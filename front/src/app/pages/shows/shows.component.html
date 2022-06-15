@@ -1,7 +1,13 @@
 <section class="shows">
+    <div>
     <h2>Shows</h2>
+    <button (click)="filtrar('All')">All</button>
+    <button (click)="filtrar('Techno')">Techno</button>
+    <button (click)="filtrar('Alternative')">Alternative</button>
+    <button (click)="filtrar('Reggaeton')">Reggaetone</button>
+    </div>
     <article class="shows_gallery">
-        <figure class="shows_gallery_inside" *ngFor="let show of shows">
+        <figure class="shows_gallery_inside" *ngFor="let show of showsFiltrados">
             <h3>{{show.artists}}</h3>
             <img src="{{show.photo}}" alt="{{show.artists}}">
             <div class="info">
