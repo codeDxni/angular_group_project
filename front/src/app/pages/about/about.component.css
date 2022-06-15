@@ -1,0 +1,95 @@
+main {
+  width: 100%;
+  height: auto;
+  background-image: url(../../../assets/images/concierto1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 150px;
+}
+
+main .nosotros {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px 100px;
+  padding: 20px 40px;
+}
+
+main .nosotros h2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+  margin: 20px;
+}
+
+main .nosotros p {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+main .partners {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px 100px;
+  padding: 20px 40px;
+}
+
+main .partners h2 {
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+main .partners p {
+  color: whitesmoke;
+}
+
+main .partners ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .partners ul li .imgGrande {
+  width: 110px;
+}
+
+main .partners ul li .imgPeq {
+  width: 200px;
+}
+
+main .partners ul li .imgEnana {
+  width: 300px;
+}
+/*# sourceMappingURL=about.component.css.map */
