@@ -10,11 +10,15 @@ import { Router } from '@angular/router';
 })
 export class ShowsComponent implements OnInit {
 public shows: ShowsInterface[]=[];
+  public showsFiltrados: ShowsInterface[]=[]
+
   constructor(private showsService: ShowsService, private router: Router) { }
 
   ngOnInit(): void {
+    
     this.showsService.getShows().subscribe((data:any)=>{
       this.shows=data;
+     this.showsFiltrados=this.shows
       console.log(this.shows);
     })
     
@@ -23,5 +27,19 @@ public shows: ShowsInterface[]=[];
     this.showsService.editItem(show);
     this.router.navigate(["/form"]);
   }
+
+  public filtrar(filtro:string){
+    if (filtro==="All"){
+      this.showsFiltrados=this.shows
+    
+    }else{
+    console.log(this.shows)
+    this.showsFiltrados= this.shows.filter((show)=>{
+    
+    return show.genre=== filtro
+    
+  })}
+  }
+
 
 }
