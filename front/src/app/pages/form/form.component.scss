@@ -29,14 +29,19 @@ body{
 
             div{
                 margin: 10px 0px;
+                width: 400px;
                 
                 label{ 
                     margin-right: 15px;
+                    
+                    
                 }
+                .div{
                 input{
                     height: 20px;
-                    width: 40%;
-                
+                    width: 100%;
+            
+                }
                 }
 
                 button{

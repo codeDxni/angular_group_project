@@ -5,12 +5,16 @@
         <form [formGroup]="showForm" (ngSubmit)="onSubmit()">
             <div>
                 <label for="artists">Artists</label>
-                <input type="text" id="artists" formControlName="artists" placeholder="Name">
-            </div>
+                <div class="cajita">
+                    <input type="text" id="artists" formControlName="artists" placeholder="Name">
+                </div>
+                </div>
             <div>
                 <label for="photo">Photo</label>
-                <input type="text" id="photo" formControlName="photo" placeholder="url photo">
-            </div>
+                <div class="cajita">
+                    <input type="text" id="photo" formControlName="photo" placeholder="url photo">
+                </div>
+                </div>
             <div>
                 <label for="genre">Genre</label>
                 <select name="genre" id="genre">
@@ -22,20 +26,28 @@
             </div>
             <div>
                 <label for="title">Festival</label>
-                <input type="text" id="title" formControlName="title" placeholder="Festival's name">
-            </div>
+                <div class="cajita">
+                    <input type="text" id="title" formControlName="title" placeholder="Festival's name">
+                </div>
+                </div>
             <div>
                 <label for="date">Date</label>
-                <input type="date" id="date" formControlName="date">
-            </div>
+                <div class="cajita">
+                    <input type="date" id="date" formControlName="date">
+                </div>
+                </div>
             <div>
                 <label for="location">Location</label>
-                <input type="text" id="location" formControlName="location" placeholder="Place">
-            </div>
+                <div class="cajita">
+                    <input type="text" id="location" formControlName="location" placeholder="Place">
+                </div>
+                </div>
             <div>
                 <label for="link">Buy-Tickets</label>
-                <input type="url" id="link" formControlName="link" placeholder="url web page">
-            </div>
+                <div class="cajita">
+                    <input type="url" id="link" formControlName="link" placeholder="url web page">
+                </div>
+                </div>
             
             <div class="botones">
              <button type="submit">SAVE CHANGES</button>
