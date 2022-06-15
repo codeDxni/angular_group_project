@@ -12,11 +12,15 @@ export class FormComponent implements OnInit {
   public showForm!: FormGroup;
   public submmited: boolean = false;
   public newShow = this.showsService.showData;
+  public showId=this.showsService.showData.id;
   
   
   constructor(private formBuilder: FormBuilder, private showsService: ShowsService, private router: Router) { }
 
   ngOnInit(): void {
+
+    this.showsService.clearShow();
+
     this.showForm=this.formBuilder.group({
       title:[this.newShow.title, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
       artists:[this.newShow.artists, [Validators.required, Validators.minLength(2), Validators.maxLength(20)]],
@@ -32,11 +36,25 @@ export class FormComponent implements OnInit {
     })
     }
     public onSubmit(){
-      this.showsService.postShow(this.newShow).subscribe();
+      if(this.showId !== ""){
+      this.showsService.putShow(this.showId, this.newShow).subscribe()
+      alert("Show edited");
+      } else {
+        
+        this.showsService.postShow(this.newShow).subscribe();
+      }
+
       this.showForm.reset();
       alert("Show created");
 
       this.router.navigate(["/shows"]);
+    }
+
+    public delete(){
+      this.showsService.deleteShow(this.newShow.id);
+      this.showsService.clearShow();
+      alert("Show borrado");
+
     }
   }
 
