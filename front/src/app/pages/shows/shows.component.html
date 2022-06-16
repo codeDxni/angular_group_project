@@ -1,10 +1,10 @@
 <section class="shows">
-    <div>
+    <div class="upperbar">
     <h2>Shows</h2>
-    <button (click)="filtrar('All')">All</button>
-    <button (click)="filtrar('Techno')">Techno</button>
-    <button (click)="filtrar('Alternative')">Alternative</button>
-    <button (click)="filtrar('Reggaeton')">Reggaetone</button>
+    <button class="button-36 above" role="button" (click)="filtrar('All')">All</button>
+    <button class="button-36 above" role="button" (click)="filtrar('Techno')">Techno</button>
+    <button class="button-36 above" role="button" (click)="filtrar('Alternative')">Alternative</button>
+    <button class="button-36 above" role="button" (click)="filtrar('Reggaeton')">Reggaetone</button>
     </div>
     <article class="shows_gallery">
         <figure class="shows_gallery_inside" *ngFor="let show of showsFiltrados">
@@ -21,4 +21,3 @@
         </figure>
     </article>
 </section> 
-   
